@@ -4,13 +4,22 @@
 <head>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="minesweeper.css" />
-  <title>MineSweeper</title>
+  <title> MineSweeper </title>
 </head>
 
 <body>
-
+  <div>
+    <div>MineSweeper<br /><br /><br /></div>
+    <div id='mainbody'>
+    </div>
+    <button onclick="startthegame(this)"> Start </button>
+  </div>
 </body>
 
 <script src="minesweeper.js"></script>
+<script>
+  let z = document.getElementsByTagName('button')[0];
+  z.click();
+</script>
 
 </html>
